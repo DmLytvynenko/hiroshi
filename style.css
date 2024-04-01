@@ -1,0 +1,69 @@
+/*global*/
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url(./fonts/NunitoSans_10pt-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'DMSans';
+    src: url(./fonts/DMSans-Regular.ttf);
+}
+
+:root{
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+
+    --main-font: 'DMSans', sans-serif;
+    --second-font: 'Nunito Sans', sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+/*header*/
+.header{
+    background-image: url(images/background.jpg);
+    height: 1080px;
+    width: 1920px;
+}
+
+.hiroshi-logo{
+    margin-top: 40px;
+    margin-left: 953px;
+}
+.navigation{
+    color: var(--color-white);
+    font-family: var(--second-font);
+    font-weight: 400;
+    font-size: 22px;
+    list-style-type: none;
+}
+
+.circle{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border: 1px, solid, white;
+}
+
+/*architect-studio*/
+
+.architect-studio{
+    background-image: url(./images/architect-studio-background.jpg);
+}
+
+.architect-studio-main{
+    list-style-type:disc;
+    color: var(--color-black);
+    padding-top: 154px;
+    padding-left: 115px;
+}
