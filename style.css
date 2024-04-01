@@ -13,6 +13,7 @@
 :root{
     --color-white: #FFFFFF;
     --color-black: #000000;
+    --color-gray: #E7E7DA; 
 
     --main-font: 'DMSans', sans-serif;
     --second-font: 'Nunito Sans', sans-serif;
@@ -39,20 +40,47 @@
     margin-top: 40px;
     margin-left: 953px;
 }
-.navigation{
-    color: var(--color-white);
-    font-family: var(--second-font);
+.nav{
+    padding-left: 50px;
     font-weight: 400;
     font-size: 22px;
+    
+}
+
+.nav-list{
     list-style-type: none;
+    row-gap: 6px;
+}
+
+.nav-list-link{
+    text-decoration: none;
+    color: var(--color-white);
+    font-family: var(--second-font);
+}
+
+.circle-div{
+    height: 30px;
+    width: 30px;
+    background-color: var(--color-black);
 }
 
 .circle{
     border-radius: 50%;
     height: 30px;
     width: 30px;
-    background-color: black;
-    border: 1px, solid, white;
+    background-color: transparent;
+    border: dashed var(--color-white);
+    rotate: 45deg;
+}
+
+.header-text-lower-main{
+    color: var(--color-white);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.header-text-lower-desc{
+
 }
 
 /*architect-studio*/
@@ -67,3 +95,15 @@
     padding-top: 154px;
     padding-left: 115px;
 }
+/*
+.architect-studio-info::before{
+    background-color: var(--color-black);
+    height: 27px;
+    width: 72px;
+}
+
+.architect-studio-info-link::before{
+    color: var(--color-black);
+    content: normal;
+}
+*/  
